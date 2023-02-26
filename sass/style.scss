@@ -1,4 +1,3 @@
-
 *::before,*::after {
     box-sizing: border-box;
 }
@@ -7,35 +6,125 @@
 nav {
     display: flex;
     justify-content: space-around;
-    
-    ul{
+
+    ul {
         list-style-type: none;
         margin: 0;
         padding: 0 5rem 0 0;
+
         li {
             display: inline;
             padding: 0 1rem;
-            
+
         }
     }
-   
-    
+
+
     .logo {
-        color:yellow;
+        color: yellow;
     }
 
 }
+
 #home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 200px;
-    flex-direction: column;
 
 }
 
+.section-title {
+    p {
+        font-family: "Droid Serif";
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 100;
+    }
 
+    h3 {
+        font-weight: bolder;
+        text-transform: uppercase;
+
+    }
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services {
+    .services-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+
+        .services-item {
+            i {
+                text-align: center;
+                font-size: 3rem;
+                color: red;
+            }
+
+            p {
+                padding: 0 3rem;
+                text-align: center;
+            }
+
+            h5 {
+                margin: 0.5rem;
+            }
+        }
+    }
+
+
+}
+
+#portfolio {
+    gap: 20px;
+
+    .portfolio-container {
+
+        max-width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+
+        .portfolio-card {
+            height: 250px;
+            width: 250px;
+            text-align: center;
+
+            .card-img {
+                height: 80%;
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 0 30%;
+
+    i {
+        padding: 0 20px;
+    }
+}
 
 * {
-    border: 1px solid red;
+    outline: 1px dotted red;
+}
+
+html {
+    scroll-behavior: smooth;
 }

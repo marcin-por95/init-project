@@ -20,15 +20,85 @@ nav .logo {
 }
 
 #home {
+  height: 200px;
+}
+
+.section-title p {
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 100;
+}
+.section-title h3 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#services .services-container {
   display: flex;
   justify-content: center;
+  gap: 2rem;
   align-items: center;
-  height: 200px;
-  flex-direction: column;
+}
+#services .services-container .services-item i {
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+}
+#services .services-container .services-item p {
+  padding: 0 3rem;
+  text-align: center;
+}
+#services .services-container .services-item h5 {
+  margin: 0.5rem;
+}
+
+#portfolio {
+  gap: 20px;
+}
+#portfolio .portfolio-container {
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio .portfolio-container .portfolio-card {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+}
+#portfolio .portfolio-container .portfolio-card .card-img {
+  height: 80%;
+  width: 100%;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  padding: 0 30%;
+}
+#contact i {
+  padding: 0 20px;
 }
 
 * {
-  border: 1px solid red;
+  outline: 1px dotted red;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNJLHNCQUFBO0FDQUo7O0FESUE7RUFDSSxhQUFBO0VBQ0EsNkJBQUE7QUNESjtBREdJO0VBQ0kscUJBQUE7RUFDQSxTQUFBO0VBQ0EsbUJBQUE7QUNEUjtBREVRO0VBQ0ksZUFBQTtFQUNBLGVBQUE7QUNBWjtBRE1JO0VBQ0ksYUFBQTtBQ0pSOztBRFFBO0VBQ0ksYUFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7QUNMSjs7QURXQTtFQUNJLHFCQUFBO0FDUkoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+html {
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNCQUFBO0FDQ0o7O0FER0E7RUFDSSxhQUFBO0VBQ0EsNkJBQUE7QUNBSjtBREVJO0VBQ0kscUJBQUE7RUFDQSxTQUFBO0VBQ0EsbUJBQUE7QUNBUjtBREVRO0VBQ0ksZUFBQTtFQUNBLGVBQUE7QUNBWjtBRE1JO0VBQ0ksYUFBQTtBQ0pSOztBRFNBO0VBQ0ksYUFBQTtBQ05KOztBRFdJO0VBQ0ksMEJBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtBQ1JSO0FEV0k7RUFDSSxtQkFBQTtFQUNBLHlCQUFBO0FDVFI7O0FEY0E7RUFDSSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0FDWEo7O0FEZUk7RUFDSSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxTQUFBO0VBQ0EsbUJBQUE7QUNaUjtBRGVZO0VBQ0ksa0JBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ2JoQjtBRGdCWTtFQUNJLGVBQUE7RUFDQSxrQkFBQTtBQ2RoQjtBRGlCWTtFQUNJLGNBQUE7QUNmaEI7O0FEdUJBO0VBQ0ksU0FBQTtBQ3BCSjtBRHNCSTtFQUVJLGNBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsU0FBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7QUNyQlI7QUR1QlE7RUFDSSxhQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FDckJaO0FEdUJZO0VBQ0ksV0FBQTtFQUNBLFdBQUE7QUNyQmhCOztBRDZCQTtFQUNJLGFBQUE7RUFDQSxtQkFBQTtFQUNBLFNBQUE7RUFDQSxnQkFBQTtFQUNBLGNBQUE7QUMxQko7QUQ0Qkk7RUFDSSxlQUFBO0FDMUJSOztBRDhCQTtFQUNJLHVCQUFBO0FDM0JKOztBRDhCQTtFQUNJLHVCQUFBO0FDM0JKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
