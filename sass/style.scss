@@ -1,0 +1,41 @@
+
+*::before,*::after {
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0 5rem 0 0;
+        li {
+            display: inline;
+            padding: 0 1rem;
+            
+        }
+    }
+   
+    
+    .logo {
+        color:yellow;
+    }
+
+}
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+
+}
+
+
+
+* {
+    border: 1px solid red;
+}
