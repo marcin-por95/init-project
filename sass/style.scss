@@ -1,48 +1,81 @@
-*::before,*::after {
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
-
 nav {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+    margin: 0 0 340px 0;
+    
+   
     ul {
+       
         list-style-type: none;
         margin: 0;
-        padding: 0 5rem 0 0;
+        padding: 0 3rem 0 0;
 
         li {
             display: inline;
             padding: 0 1rem;
-
+            
+            a {
+                color: #ffffff;
+                font-size: 17px;
+            }
         }
     }
 
 
     .logo {
+        margin-right: 150px;
+        padding-right: 374px;
         color: yellow;
+        font-size: 26px;
     }
 
 }
 
 #home {
-    height: 200px;
+    background-image: url("/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    height: 729px;
+     .home-title {
+        margin: -60px 0 0 0;
+        
+        text-align: center;
+        
+        color: white;
+        h3 {
+            font-size: 30px;
+        }
+        h1 {
+            font-size: 55px;
+        }
 
+     }
+   
+  
 }
 
 .section-title {
+    
     p {
+       
         font-family: "Droid Serif";
         font-size: 16px;
         font-style: italic;
         font-weight: 100;
+        
     }
 
     h3 {
         font-weight: bolder;
         text-transform: uppercase;
-
+        
     }
 }
 
@@ -59,12 +92,13 @@ nav {
         justify-content: center;
         gap: 2rem;
         align-items: center;
-
+        flex-wrap: wrap;
+        
         .services-item {
             i {
                 text-align: center;
                 font-size: 3rem;
-                color: red;
+                color: #fed136;
             }
 
             p {
@@ -86,7 +120,7 @@ nav {
 
     .portfolio-container {
 
-        max-width: 80%;
+        max-width: 50%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
