@@ -242,22 +242,59 @@ nav {
 
 #contact {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 20px;
-    margin-top: 30px;
-    padding: 0 30%;
-
+    justify-content: center;
+    text-align: center;
+    gap: 119px;
+    margin-top: 40px;
+    padding: 0 10%;
+    p {
+        margin: 0 100px 0 0;
+        
+    }
     i {
+       
         padding: 0 20px;
     }
 }
 
-.footer-icons {
-    font-size: 18px;
-    background-color: white;
-        border-radius: 50%;
+.tw {
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 56px;
+    background: #222222;;
+    color: #fff;
+    border-radius:100%; 
 }
-
+.fb {
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 56px;
+    background: #222222;;
+    color: #fff;
+    border-radius:100%; 
+}
+.pi {
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 56px;
+    background: #222222;;
+    color: #fff;
+    border-radius:100%; 
+}
+.goo {
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 56px;
+    background: #222222;;
+    color: #fff;
+    border-radius:100%; 
+}
 html {
     scroll-behavior: smooth;
 }
