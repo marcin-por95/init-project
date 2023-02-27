@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
 @font-face {
     font-family: "droiditalic";
     src: url('/vendor/DroidSerif-Italic.ttf');
 }
+
 *::before,
 *::after {
     box-sizing: border-box;
@@ -17,9 +19,6 @@
     border-radius: 2px;
     text-transform: uppercase;
     font-weight: bold;
-
-
-
 }
 
 
@@ -27,7 +26,6 @@ nav {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-
 
     ul {
         font-family: 'Montserrat', sans-serif;
@@ -83,7 +81,6 @@ nav {
 
     }
 
-
 }
 
 .section-title {
@@ -117,25 +114,27 @@ nav {
 }
 
 #services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 118px;
-    .section-title{
-      
+
+    .section-title {
+
         h3 {
             line-height: 0.1;
-           margin-bottom: 15px;
-         
+            margin-bottom: 15px;
+
         }
+
         p {
             color: #737373;
             font-style: italic;
-           }
+        }
     }
-   
-    
+
+
     .services-container {
         display: flex;
         justify-content: center;
@@ -144,7 +143,7 @@ nav {
         flex-wrap: wrap;
 
         .services-item {
-           
+
             i {
                 text-align: center;
                 font-size: 5rem;
@@ -160,13 +159,12 @@ nav {
             h5 {
                 margin: 0.5rem;
                 font-size: 18px;
-                
-            }
-            
-        }
-       
-    }
 
+            }
+
+        }
+
+    }
 
 }
 
@@ -177,12 +175,12 @@ nav {
     .section-title {
         font-weight: bold;
         line-height: 0.1;
+
         p {
             color: #737373;
             font-style: italic;
         }
     }
- 
 
     .portfolio-container {
 
@@ -213,12 +211,10 @@ nav {
                 padding-top: 20px;
                 align-items: center;
 
-
                 h7 {
                     text-align: center;
                     font-size: 18px;
                     color: #222222;
-
 
                 }
 
@@ -239,7 +235,6 @@ nav {
 
 }
 
-
 #contact {
     display: flex;
     flex-direction: row;
@@ -251,50 +246,23 @@ nav {
     padding: 0 10%;
     p {
         margin: 0 100px 0 0;
-        
     }
     i {
-       
+
         padding: 0 20px;
     }
 }
 
-.tw {
+.i {
     font-size: 15px;
     width: 15px;
     text-align: center;
     line-height: 56px;
-    background: #222222;;
+    background: #222222 !important;
     color: #fff;
-    border-radius:100%; 
+    border-radius: 100%;
 }
-.fb {
-    font-size: 15px;
-    width: 15px;
-    text-align: center;
-    line-height: 56px;
-    background: #222222;;
-    color: #fff;
-    border-radius:100%; 
-}
-.pi {
-    font-size: 15px;
-    width: 15px;
-    text-align: center;
-    line-height: 56px;
-    background: #222222;;
-    color: #fff;
-    border-radius:100%; 
-}
-.goo {
-    font-size: 15px;
-    width: 15px;
-    text-align: center;
-    line-height: 56px;
-    background: #222222;;
-    color: #fff;
-    border-radius:100%; 
-}
+
 html {
     scroll-behavior: smooth;
 }
